@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/fw2_ota', (req, res) => {
-    console.log(req);
+    // console.log(req);
     res.download('public/main.ino.bin');
 });
 
