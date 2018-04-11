@@ -1,24 +1,15 @@
 {
-  "name": "test-ota",
+  "name": "firmwareOTAServer",
   "version": "1.0.0",
-  "description": "testing ota update",
-  "main": "server.js",
-  "dependencies": {
-    "http-server": "^0.9.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MYasirSheikh/testOTA.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MYasirSheikh/testOTA/issues"
-  },
-  "homepage": "https://github.com/MYasirSheikh/testOTA#readme"
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
