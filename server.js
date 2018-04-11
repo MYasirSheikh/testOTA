@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/fw2_ota', (req, res) => {
     console.log(req);
-    res.sendFile('http://test-ota.herokuapp.com/public/main.ino.bin');
+    res.download('main.ino.bin');
 });
 
 app.listen(process.env.PORT || 8000);
