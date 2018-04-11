@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/fw2_ota', (req, res) => {
     console.log(req);
-    res.download('main.ino.bin');
+    res.download('public/main.ino.bin');
 });
 
 app.listen(process.env.PORT || 8000);
